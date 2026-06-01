@@ -1,10 +1,8 @@
-$ curl -s https://api.github.com/repos/faddyk2/expressBookReviews | findstr /C:"full_name" /C:"\"fork\""
+$ curl -s https://api.github.com/repos/faddyk2/expressBookReviews | findstr /C:"\"fork\"" /C:"parent" /C:"source" /C:"full_name"
 
   "full_name": "faddyk2/expressBookReviews",
   "fork": true,
   "parent": {
     "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "fork": false,
   "source": {
     "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "fork": false,
